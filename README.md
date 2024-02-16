@@ -14,7 +14,7 @@ This problem can be modeled in various ways, including but not limited to the Si
 
 As of now, the solution presented considers the CFLP model of the problem.
 
-## Our Solutions
+## Solutions
 In this repository, I present a collection of innovative solutions to the Facility Location Optimization problem, each designed with efficiency and scalability in mind. My approaches leverage a mix of traditional optimization techniques and modern computational methods, including:
 
 - Heuristic algorithms for quick and effective solutions to complex problems.
