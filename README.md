@@ -25,7 +25,7 @@ In this repository, I present a couple of solutions to the Facility Location Opt
 
 ![flo problem](https://github.com/lucca11235/Facility-Location-Optimization/assets/91396656/42a1e6bb-ae45-4351-bb1d-56b9d7051fd2)
 
-## Results solution
+## Results Example
 
 Say the input of the problem is a dictionary like the following, where we have facilities named from 'A' to 'E' and demand points named from 1 to 6.
 
