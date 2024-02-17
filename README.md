@@ -1,6 +1,6 @@
 # Facility-Location-Optimization
 
-Welcome to my repository dedicated to solving the Facility Location Optimization problem, a pivotal challenge in operations research and supply chain management. This problem revolves around determining the most strategic locations for facilities (like warehouses, factories, or retail stores) to minimize costs and optimize service efficiency to a set of clients.
+Welcome to my repository dedicated to solving the Facility Location Optimization problem. This problem revolves around determining the most strategic locations for facilities (like warehouses, factories, or retail stores) to minimize costs and optimize service efficiency to a set of clients. It's an interesting space to test new techniques such as heuristics, linear programming, and even AI. This repository is my space to share some of the solutions I have developed or am currently developing.
 
 ## Problem Overview
 The Facility Location Optimization problem involves several key components:
