@@ -24,3 +24,38 @@ In this repository, I present a couple of solutions to the Facility Location Opt
 ## Mathematical formulation
 
 ![flo problem](https://github.com/lucca11235/Facility-Location-Optimization/assets/91396656/42a1e6bb-ae45-4351-bb1d-56b9d7051fd2)
+
+## Results solution
+
+Say the input of the problem is a dictionary like the following, where we have facilities named from 'A' to 'E' and demand points named from 1 to 6.
+
+```
+test =  {'capacities':{'A': 200, 'B': 180, 'C': 160, 'D': 150, 'E': 140},
+        'opening_costs':{'A': 20, 'B': 25, 'C': 22, 'D': 18, 'E': 15},
+        'demands':{1: 90, 2: 80, 3: 70, 4: 60, 5: 85, 6: 75}, 
+        'transportation_costs':{
+            'A': {1: 4, 2: 6, 3: 5, 4: 3, 5: 2, 6: 3},
+            'B': {1: 5, 2: 3, 3: 4, 4: 2, 5: 6, 6: 5},
+            'C': {1: 3, 2: 4, 3: 2, 4: 5, 5: 3, 6: 4},
+            'D': {1: 6, 2: 5, 3: 3, 4: 4, 5: 5, 6: 2},
+            'E': {1: 2, 2: 1, 3: 6, 4: 1, 5: 4, 6: 6}
+        }
+        }
+```
+
+The challenge escalates quickly due to the exponential growth of potential solutions. It involves not only deciding which facilities to open but also determining the distribution of units to meet the precise demands, constrained by each facility's capacity. Despite the complexity, the output from the developed genetic algorithm shows promising results, demonstrating efficient facility operation and transportation matrix. The algorithm found a pleasing combination, where not all facilities are opened and lots of the terms are 0, showing the algorithm understands some of facilities are not worth investing sending to some clients.
+
+```
+Best fitness: 1041.0
+
+Facility A is open.
+Facility C is open.
+Facility E is open.
+
+ Matrix of transportation:
+      1     2     3     4     5     6
+A   0.0   0.0   0.0  39.0  85.0  75.0
+C  51.0   0.0  70.0   0.0   0.0   0.0
+E  39.0  80.0   0.0  21.0   0.0   0.0
+```
+
