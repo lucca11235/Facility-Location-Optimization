@@ -6,5 +6,5 @@ As described, the problem is a mixed-integer linear programming (MILP) problem. 
 
 In this scenario, there are two related spaces our algorithm must explore, the continuous amount service per facility to the customer and the integer binary variable representing whether a facility is closed or not. Let's call the last space y_ i ∈ {0,1} the First Space and x_ij > 0 the Second Space. The proposed algorithm shall explore both these spaces in a hierarchical manner.
 
-
+# Diagram of the solution 
 ![Screen Shot 2024-02-16 at 21 52 48](https://github.com/lucca11235/Facility-Location-Optimization/assets/91396656/54989ffe-e214-46b8-a433-74c7c9d52afc)
