@@ -21,7 +21,7 @@ In this repository, I present a couple of solutions to the Facility Location Opt
 - Exact algorithms for smaller instances where precision is paramount.
 - Metaheuristic approaches that balance between solution quality and computational feasibility for larger instances.
 
-## Mathematical formulation
+## Mathematical formulation (CFLP)
 
 ![flo problem](https://github.com/lucca11235/Facility-Location-Optimization/assets/91396656/42a1e6bb-ae45-4351-bb1d-56b9d7051fd2)
 
